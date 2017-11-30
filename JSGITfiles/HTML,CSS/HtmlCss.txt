@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FashionWeb</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header{
+   background-color: grey;
+   padding: 16px;
+   color: black;
+   max-width: 100%;
+   height: auto;
+   text-align: center;
+   font-size: 48px;
+   font-style: italic;
+   text-shadow: 2px 2px lightblue;
+   overflow-x: hidden;
+}
+footer{
+   background-color: grey;
+   padding: 16px;
+   margin: auto;
+   color: black;
+   max-width: 100%;
+   height: auto;
+   text-align: center;
+   font-size: 32px;
+}
+
+body{
+  max-width:100%;
+  height: 100%;
+  font-size: 32px;
+  background-color: skyblue;
+  overflow-x: hidden;
+}
+ul {
+   list-style-type: none;
+   margin: auto;
+   padding: 0;
+   overflow: hidden;
+   position: relative;
+   background-color: black;
+   width: 100%;
+}
+li {
+   float: left;
+}
+li a {
+     display: inline;
+     color: white;
+     text-align: center;
+     padding:16px;
+     text-decoration: none;
+     background-color: black;
+     overflow-x: hidden;
+}
+li a:hover {
+          background-color:grey;
+}
+
+div {
+    background-color: blue;
+    width: 15%;
+    height: 100%;
+    overflow-x: hidden;
+    top: 0;
+}
+   
+div ul {
+      list-style-type: none;
+      text-decoration: none;
+      padding: 8px;
+      height: 100%;
+      overflow-x: hidden;
+      cover: white;
+}
+div li a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 24px;
+    display: block;
+    color: orange;
+    padding: 2px;
+}
+div li a:hover {
+    color: red;
+}
+div li:hover {
+    background-color: black;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>FashionWeb<marquee style="font-size:32px";>Fashion is my Life.
+Fashion is a Lifestyle.Fashion
+is Where Life Begins.</marquee>
+</header>
+
+
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#mailUs">MailUs</a></li>
+  <li><a href="#callUs">CallUs</a></li>
+  <li><a href="#aboutUs">AboutUs</a></li>
+  <li><a href="#More">More</a></li>
+</ul>
+
+
+<div>
+<ul>
+
+  <li><a href="#Jeans">Jeans</a></li>
+
+  <ul>
+     <li><a href="#MenJeans">MenJeans</a></li><br>
+     <li><a href="#WomenJeans">WomenJeans</a></li>
+  </ul>
+
+  <li><a href="#Shirts">Shirts</a></li>
+
+  <ul>
+     <li><a href="#MenShirts">MenShirts</a></li><br>
+     <li><a href="#WomenShirts">WomenShirts</a></li>
+  </ul>
+
+  <li><a href="#T-Shirts">Tshirts</a></li>
+
+  <ul>
+     <li><a href="#MenTshirts">MenTshirts</a></li><br>
+     <li><a href="#WomenTshirts">WomenTshirts</a></li>
+  </ul>
+
+  <li><a href="#Shoes">Shoes</a></li>
+
+  <ul>
+     <li><a href="#MenShoes">MenShoes</a></li><br>
+     <li><a href="#WomenShoes">WomenShoes</a></li>
+  </ul>
+
+  <li><a href="#Shades">Shades</a></li>
+
+   <ul>
+     <li><a href="#MenShades">MenShades</a></li><br>
+     <li><a href="#WomenShades">WomenShades</a></li>
+  </ul>
+
+  <li><a href="#Watces">Watches</a></li>
+
+  <ul>
+     <li><a href="#MenWatches">MenWatches</a></li><br>
+     <li><a href="#WomenWatches">WomenWatches</a></li>
+  </ul>
+
+</ul>
+
+</div>
+
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Fashion</strong> is a popular style of clothes,
+ hair, manners, habits, etc...,at a particular time or place. Clothes mark out 
+a person status.The craze for fashion is great among young people all over the world.Trend is new Lifestyle of people.</p>
+
+
+<footer> All &copy Rights Authority. </footer>
+
+</body>
+</html>
+
